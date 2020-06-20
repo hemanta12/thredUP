@@ -1,0 +1,126 @@
+/* Body*/
+
+body {
+    background-color: rgb(235, 231, 229);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Offer header */
+
+.offers,
+.offers a {
+    color: rgb(218, 214, 214);
+    background-color: rgb(75, 70, 70);
+}
+
+.offers a:hover {
+    color: rgb(8, 15, 102);
+}
+
+
+/* Main header */
+
+.main-header button {
+    background-color: inherit;
+}
+
+
+/* four icons */
+
+.capi,
+.icons .text-muted {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.icons img {
+    height: 30px;
+    width: 33px;
+}
+
+.icons .text-muted {
+    opacity: 0.4;
+    font-size: 16px;
+}
+
+.icons .text-muted:hover {
+    background-color: rgb(15, 5, 24);
+    color: rgb(247, 152, 152);
+    opacity: 1;
+    border-radius: 6px;
+    padding: 6px;
+    border: none;
+    transition: ease-in;
+}
+
+
+/* Nav bar with options and search bar  */
+
+.firstnav {
+    list-style-type: none;
+    font-size: 17px;
+}
+
+.firstnav li {
+    padding: 4px 15px;
+    text-align: center;
+}
+
+.firstnav li:hover {
+    border-bottom: 0.3em solid rgb(45, 185, 92);
+    border: 50%;
+    overflow: hidden;
+}
+
+.cleanout {
+    letter-spacing: 1px;
+    color: rgb(50, 192, 168);
+}
+
+
+/* Search-bar */
+
+.search-bar {
+    padding: 0.6em 1.4em;
+    width: 75%;
+    margin: auto 0 auto 20%;
+    background-color: rgb(87, 82, 82);
+    color: white;
+    border: none;
+}
+
+
+/* Search bar icon */
+
+.search-icon {
+    height: 100%;
+    width: 30px;
+    margin: auto 5% auto -6%;
+    background-color: rgb(87, 82, 82);
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    /* box-shadow: 1px 0 1px 1px black; */
+}
+
+
+/* Second Nav bar- bar with 11 options */
+
+.navb {
+    list-style-type: none;
+    background-color: rgb(212, 209, 209);
+}
+
+.navb li {
+    padding: 10px;
+}
+
+.navb li:hover {
+    background-color: rgb(202, 198, 198);
+    border-right: 2px solid black;
+}
